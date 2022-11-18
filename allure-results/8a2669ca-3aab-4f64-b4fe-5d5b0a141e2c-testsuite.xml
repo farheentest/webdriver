@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654610348239' stop='1654610349961'>
+    <name>Drop_down</name>
+    <title>Drop_down</title>
+    <test-cases>
+        <test-case start='1654610348240' status='broken' stop='1654610349961'>
+            <name>select dob</name>
+            <title>select dob</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='04c38b9b-8935-46d6-9cda-4aee369e652a-attachment.png' type='image/png' size='119123'/>
+            </attachments>
+            <failure>
+                <message>$(...).click is not a function</message>
+                <stack-trace>TypeError: $(...).click is not a function
+                    at Context.&lt;anonymous> (/home/oem/Documents/Webdriver_io practice/test/specs/Dropdown.js:7:40)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

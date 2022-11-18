@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654610440904' stop='1654610442511'>
+    <name>Drop_down</name>
+    <title>Drop_down</title>
+    <test-cases>
+        <test-case start='1654610440904' status='broken' stop='1654610442511'>
+            <name>select dob</name>
+            <title>select dob</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fdb18b6b-8874-48e6-a654-05cef6f235d1-attachment.png' type='image/png' size='119123'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'isDevTools' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDevTools' of undefined
+                    at Context.&lt;anonymous> (/home/oem/Documents/Webdriver_io practice/test/specs/Dropdown.js:7:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

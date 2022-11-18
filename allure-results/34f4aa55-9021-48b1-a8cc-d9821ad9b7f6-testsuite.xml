@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654610518299' stop='1654610530114'>
+    <name>Drop_down</name>
+    <title>Drop_down</title>
+    <test-cases>
+        <test-case start='1654610518299' status='broken' stop='1654610530114'>
+            <name>select dob</name>
+            <title>select dob</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='65227510-af0f-4cb8-aace-7c0261dd86dd-attachment.png' type='image/png' size='119099'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//*[@id="u_0_2_BX"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[@id="u_0_2_BX"]" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

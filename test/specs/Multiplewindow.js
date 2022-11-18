@@ -1,0 +1,15 @@
+describe("handling multiple window",function(){
+    it("switching windows", async function(){
+        await browser.url("https://opensource-demo.orangehrmlive.com/")
+        await browser.maximizeWindow()
+        const linkedin = await $("//*[@id='social-icons']/a[1]/img")
+        await linkedin.click()
+        await browser.pause(20000)
+        await browser.switchWindow("linkedin.com")
+        const email = await $("#email-or-phone")
+        await email.setValue("farheen@gmail.com")
+        await browser.switchWindow("orangehrmlive")
+        const user = await $("//input[@id='txtUsername']")
+        await user.setValue("Admin")
+    })
+})
